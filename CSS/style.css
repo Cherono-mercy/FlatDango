@@ -16,7 +16,7 @@ body{
     justify-content: space-between;
 }
 
-.sidebar{
+#sidebar{
     width: 25%;
     border: apx solid #eee;
     border-radius: 3px;
@@ -33,4 +33,14 @@ body{
     border-radius: 3px;
     height: 92vh;
     overflow-y: auto;
+}
+
+.top{
+    height: 60px;
+    border-radius: 3px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
