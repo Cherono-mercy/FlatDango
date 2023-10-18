@@ -26,6 +26,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #eee;
 }
 
 .data{
@@ -43,4 +44,30 @@ body{
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+.top p{
+    font-weight: bold;
+}
+
+#list .filmList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 1px solid #eee;
+    cursor: pointer;
+}
+
+#list .filmList:hover{
+    color: goldenrod;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    color: goldenrod;
 }
